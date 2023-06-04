@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Forgiving Sky",
+	"starSystem": "bismuthdistrict.RhedorianceSystem",
+	"Base": {
+		"surfaceSize": 600,
+		"surfaceGravity": 17,
+		"groundSize": 0,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 14000,
+		"primaryBody": "the star idk"
+	},
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 219,
+			"g": 114,
+			"b": 57
+		},
+		"size": 625,
+		"clouds": {
+			"texturePath": "planets/assets/forgivingclouds.png",
+			"outerCloudRadius": 600,
+			"innerCloudRadius": 500,
+			"tint": {
+				"r": 219,
+				"g": 114,
+				"b": 57
+			}
+		}
+	},
+	"Rings": [
+		{
+			"innerRadius": 800,
+			"outerRadius": 1500,
+			"texture": "planets/assets/forgivingrings.png"
+		}
+	],
+	"Spawn": {
+		"shipSpawn": {
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 1500
+			}
+		}
+	}
+}
